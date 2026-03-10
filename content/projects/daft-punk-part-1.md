@@ -1,6 +1,6 @@
 +++
 date = '2026-02-01T09:49:05+01:00'
-draft = true
+draft = false
 title = 'Building a Daft Punk Helmet, Part 1: The Plan'
 tags = ["electronics", "3d-printing", "build-log"]
 +++
