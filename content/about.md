@@ -8,8 +8,8 @@ This is my personal site — a place where I write down what I'm up to. It's a b
 
 # Who am I? 
 
-By day - machine learning engineer at Spotify. My team builds "the algorithm" and it's a really cool space to work in. 
+By day - machine learning engineer working on "the algorithm".
 
 By night - tinkerer, photography nerd, man of a million hobbies, drinker of IPA. I have a million projects going in parallel and never enough time to finish them all. 
 
-All the time - father, husband, grumpy old man.
+All the time - father, husband, grumpy elder millennial.
