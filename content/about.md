@@ -12,4 +12,4 @@ By day - machine learning engineer at Spotify. My team builds "the algorithm" an
 
 By night - tinkerer, photography nerd, man of a million hobbies, drinker of IPA. I have a million projects going in parallel and never enough time to finish them all. 
 
-All the time - father, husband, grumpy old man
+All the time - father, husband, grumpy old man.

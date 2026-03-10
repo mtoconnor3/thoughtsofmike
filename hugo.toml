@@ -1,4 +1,4 @@
-baseURL = 'https://thoughtsofmike-9b909.web.app/'
+baseURL = 'https://thoughtsofmike.com/'
 languageCode = 'en'
 title = 'thoughts of mike'
 theme = 'hugo-coder'
@@ -14,7 +14,7 @@ noClasses = false
 unsafe = true
 
 [params]
-author = "Mike"
+author = "Mike O'Connor"
 description = "A personal site."
 keywords = "blog,personal"
 info = ["Writing, thinking, building."]
