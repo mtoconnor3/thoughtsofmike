@@ -1,0 +1,36 @@
+baseURL = 'https://thoughtsofmike-9b909.web.app/'
+languageCode = 'en'
+title = 'thoughts of mike'
+theme = 'hugo-coder'
+enableEmoji = true
+
+[pagination]
+pagerSize = 10
+
+[markup.highlight]
+noClasses = false
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+author = "Mike"
+description = "A personal site."
+keywords = "blog,personal"
+info = ["Writing, thinking, building."]
+dateFormat = "January 2, 2006"
+colorScheme = "auto"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[[menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[menu.main]]
+name = "Posts"
+weight = 2
+url = "posts/"
