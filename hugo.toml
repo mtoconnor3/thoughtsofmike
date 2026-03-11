@@ -13,6 +13,9 @@ noClasses = false
 [markup.goldmark.renderer]
 unsafe = true
 
+[services.googleAnalytics]
+ID = "G-0BH8J4JVDF"
+
 [params]
 author = "Mike O'Connor"
 description = "A personal website site."
