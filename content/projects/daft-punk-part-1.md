@@ -15,7 +15,7 @@ A lot of elder millennials will remember when Daft Punk first made an appearance
 
 The original Bangalter helmet has taken various colors and formats over the years, but the one I want to recreate is chrome, and had an animated LED matrix in the visor. This is the one that comes to mind for me immediately. 
 
-![Thomas Bangalter performing as Daft Punk](/images/bangalter-helmet.webp)
+![Thomas Bangalter performing as Daft Punk](/images/daft-punk-part-1/bangalter-helmet.webp)
 *Image: [BBC News](https://www.bbc.com/news/entertainment-arts-65140938)*
 
 ## Scope
