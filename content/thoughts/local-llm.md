@@ -1,0 +1,12 @@
+---
+title: "Local LLM"
+date: 2026-03-14
+draft: false
+---
+I've been posting a lot about [my Daft Punk project](/projects/daft-punk-part-1), and one of the things that I've been relying quite heavily on is local large language models for coding assistance. It's one of those things that I thought would be interesting to play with, and ended up actually being kind of useful. I really do think that these kinds of models are going to play a really big role in the future of AI assisted software development and [last week's announcements by Apple about their M5 chips](https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/), combined with [large scale outages of services like Claude code](https://techcrunch.com/2026/03/02/anthropics-claude-reports-widespread-outage/) make me increasingly convinced that local language models aren't going anywhere. It's really amazing what you can accomplish with an open source model that you've downloaded for free from the Internet.
+
+I've been using [Qwen3-Coder:30b](https://ollama.com/library/qwen3-coder) for basic coding tasks and code review. On an M1 Max MacBook Pro, the workflow isn't all that different from what I would get if I were using an online service. The models are less sophisticated, and I don't benefit from agents running in the background. But it's nice to know that I can keep working even when the power goes out.
+
+Today, relying exclusively on language models as a service is beginning to show exactly how brittle this new AI world can be. And in a future where we rely more and more on machines to do the heavy lifting, that kind of brittleness is not something I want to build into my workflow. And so I expect there will eventually be a huge migration towards local models and agents, and not just in engineering. You have more control, you're overhead costs are contained, and you're less exposed to brittle systems that are still in their infancy. 
+
+I think adoption will probably be slow in the beginning. But just like text to speech and image recognition in your phone seemed like Science fiction 20 years ago, they've become basline expectations now. The hardware is catching up with the software, and I don't think that we'll have to wait for very long.
