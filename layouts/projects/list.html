@@ -2,6 +2,13 @@
   {{- i18n (lower .Title) | default .Title | title }} · {{ .Site.Title -}}
 {{ end }}
 {{ define "content" }}
+<style>
+  .project-list { list-style: none; padding: 0; }
+  .project-item { display: flex; align-items: center; gap: 1.5rem; margin-bottom: 2rem; }
+  .project-thumb { width: 200px; height: 133px; object-fit: cover; display: block; flex-shrink: 0; }
+  .project-item-info .date { font-size: 0.85em; color: var(--color-secondary-text, #888); display: block; }
+  .project-item-info .title { font-size: 1.1em; font-weight: bold; }
+</style>
 <section class="container list">
   <header>
     <h1 class="title">
@@ -11,11 +18,20 @@
     </h1>
   </header>
   {{ .Content }}
-<ul>
+  <ul class="project-list">
     {{ range (.RegularPages | union .Sections).ByDate.Reverse }}
-    <li>
-      <span class="date">{{ .Date | time.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</span>
-      <a class="title" href="{{ .Params.externalLink | default .RelPermalink }}">{{ .Title }}</a>
+    <li class="project-item">
+      {{ $pageURL := .Params.externalLink | default .RelPermalink }}
+      {{ $pageTitle := .Title }}
+      {{ with .Params.thumbnail }}
+      <a href="{{ $pageURL }}">
+        <img src="{{ . }}" class="project-thumb" alt="{{ $pageTitle }}">
+      </a>
+      {{ end }}
+      <div class="project-item-info">
+        <span class="date">{{ .Date | time.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</span>
+        <a class="title" href="{{ $pageURL }}">{{ $pageTitle }}</a>
+      </div>
     </li>
     {{ end }}
   </ul>

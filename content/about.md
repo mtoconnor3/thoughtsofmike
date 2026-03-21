@@ -1,14 +1,14 @@
 ---
-title: "About Me"
+title: "Hi, I'm Mike"
 ---
 
-Hi, I'm Mike.
+<img src="/images/headshot.jpg" alt="It's me" width="300">
 
-This is my personal site — a place where I write down what I'm up to. It's a bit of an experiment for me so we'll see how it goes. I've decided that I need a place to share my ideas and little projects, and this is what I've come up with. 
+This is a place where I write down what I'm up to. It's a bit of an experiment for me so we'll see how it goes. I've decided that I need a place to share my ideas and little projects, and this is what I've come up with. 
 
 # Who am I? 
 
-By day - machine learning engineer working on "the algorithm".
+By day - machine learning engineer working on "the algorithm"
 
 By night - tinkerer, photography nerd, man of a million hobbies, drinker of IPA. I have a million projects going in parallel and never enough time to finish them all. 
 
