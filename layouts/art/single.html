@@ -1,0 +1,24 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "content" }}
+<style>
+  .art-photo-link { display: block; margin-bottom: 1.5rem; }
+  .art-photo { max-width: 800px; width: 100%; display: block; margin: 0 auto; }
+</style>
+<section class="container">
+  <header>
+    <h1 class="title">{{ .Title }}</h1>
+    <p class="date">{{ .Date | time.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</p>
+  </header>
+  {{ $images := sort (.Resources.ByType "image") "Name" }}
+  {{ range $images }}
+  <a href="{{ .RelPermalink }}" target="_blank" rel="noopener" class="art-photo-link">
+    <img src="{{ .RelPermalink }}"
+         class="art-photo"
+         alt="{{ .Params.alt | default .Name }}"
+         loading="lazy">
+  </a>
+  {{ end }}
+</section>
+{{ end }}
