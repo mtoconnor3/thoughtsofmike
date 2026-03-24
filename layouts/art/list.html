@@ -5,7 +5,7 @@
 <style>
   .art-list { list-style: none; padding: 0; }
   .art-set { display: flex; align-items: center; gap: 1.5rem; margin-bottom: 2rem; }
-  .art-thumb { width: 200px; height: 133px; display: block; flex-shrink: 0; }
+  .art-thumb { width: 200px; display: block; flex-shrink: 0; }
   .art-set-info .date { font-size: 0.85em; color: var(--color-secondary-text, #888); display: block; }
   .art-set-info .title { font-size: 1.1em; font-weight: bold; }
 </style>
@@ -22,7 +22,7 @@
       {{ $setTitle := .Title }}
       {{ $images := sort (.Resources.ByType "image") "Name" }}
       {{ with index $images 0 }}
-        {{ with .Fill "200x133" }}
+        {{ with .Fit "200x300" }}
         <a href="{{ $setURL }}">
           <img src="{{ .RelPermalink }}" class="art-thumb" alt="{{ $setTitle }}">
         </a>
