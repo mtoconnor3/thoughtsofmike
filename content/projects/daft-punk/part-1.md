@@ -3,7 +3,7 @@ date = '2026-02-01T09:49:05+01:00'
 draft = false
 title = 'Part 1: The Plan'
 tags = ["electronics", "3d-printing", "build-log"]
-url = '/projects/daft-punk-part-1'
+url = '/projects/daft-punk/part-1'
 +++
 
 For many years, I've wanted to make a replica of Thomas Bangalter's Daft Punk helmet — the silver one. Full size, wearable, with working lights. And recently I decided to do something about it. This is one of those projects that floats around in my head in different forms but never materializes because of the scope and complexity. But that ends now. 
@@ -61,4 +61,4 @@ The first step in the process is, of course, finding a good model of the helmet 
 
 ---
 
-*This is part 1 of an ongoing build log. [Part 2](/projects/daft-punk-part-2) covers the printed shell; [Part 3](/projects/daft-punk/part-3) covers the electronics.*
+*This is part 1 of an ongoing build log. [Part 2](/projects/daft-punk/part-2) covers the printed shell; [Part 3](/projects/daft-punk/part-3) covers the electronics.*

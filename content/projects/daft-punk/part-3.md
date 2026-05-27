@@ -5,7 +5,7 @@ title = 'Part 3: The Electronics Package'
 tags = ["electronics", "pcb", "firmware", "build-log"]
 +++
 
-I talked a bit about the process of building the shell in [part 2](/projects/daft-punk-part-2). Now it's time to figure out what goes inside it — the electronics.
+I talked a bit about the process of building the shell in [part 2](/projects/daft-punk/part-2). Now it's time to figure out what goes inside it — the electronics.
 
 ---
 
@@ -307,4 +307,4 @@ The visor opening also needs a lens. The plan is to cut a piece of Lexan to fit,
 
 ---
 
-*This is part 3 of an ongoing build log. [Part 1](/projects/daft-punk-part-1) covers the plan; [Part 2](/projects/daft-punk-part-2) covers the printed shell.*
+*This is part 3 of an ongoing build log. [Part 1](/projects/daft-punk/part-1) covers the plan; [Part 2](/projects/daft-punk/part-2) covers the printed shell.*

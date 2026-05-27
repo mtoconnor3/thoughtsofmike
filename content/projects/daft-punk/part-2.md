@@ -3,14 +3,14 @@ date = '2026-02-06T00:00:00+01:00'
 draft = false
 title = 'Part 2: Printing the Shell'
 tags = ["electronics", "3d-printing", "build-log"]
-url = '/projects/daft-punk-part-2'
+url = '/projects/daft-punk/part-2'
 +++
 
-In [part 1](/projects/daft-punk-part-1), I laid out the plan for this project. Since then, the printer has been running. This post covers the first real milestone: a printed helmet shell.
+In [part 1](/projects/daft-punk/part-1), I laid out the plan for this project. Since then, the printer has been running. This post covers the first real milestone: a printed helmet shell.
 
 ## The Model
 
-I covered model selection in the [last post](/projects/daft-punk-part-1). I landed on [this one from Thingiverse](https://www.thingiverse.com/thing:5033571) — good detail, clean geometry, and workable topology. The first order of business was getting it into Fusion 360 to scale it to wearable dimensions and cut it into chunks that would actually fit on the build plate.
+I covered model selection in the [last post](/projects/daft-punk/part-1). I landed on [this one from Thingiverse](https://www.thingiverse.com/thing:5033571) — good detail, clean geometry, and workable topology. The first order of business was getting it into Fusion 360 to scale it to wearable dimensions and cut it into chunks that would actually fit on the build plate.
 
 Sectioning a helmet into printable pieces sounds simple until you're actually doing it. There's a balance between minimizing the number of pieces (fewer seams to deal with later) and keeping each piece small enough to print without supports becoming a nightmare. The Fusion 360 color coding below shows roughly how I ended up slicing it.
 
@@ -86,4 +86,4 @@ The shell is printed and assembled. But a lot remains to be done. I will say, th
 
 ---
 
-*This is part 2 of an ongoing build log. [Part 1](/projects/daft-punk-part-1) covers the plan; [Part 3](/projects/daft-punk/part-3) covers the electronics.*
+*This is part 2 of an ongoing build log. [Part 1](/projects/daft-punk/part-1) covers the plan; [Part 3](/projects/daft-punk/part-3) covers the electronics.*
